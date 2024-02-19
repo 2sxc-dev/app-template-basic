@@ -5,6 +5,7 @@
   <h1>Get Started with the Basic App Template</h1>
   <div class="alert alert-secondary">
     This is a empty template app with a few tips to get you started. <br>
+    It is based on <a href="https://github.com/2sxc-dev/app-template-basic" target="_blank">the app-template-basic</a> and is a great starting point for your own app. <br>
     You are seeing <code>/Get Started/Welcome.cshtml</code> because the link contains <code>?getstarted=true</code>. <br>
     Click <a href="@Link.To()">🔙</a> to see the default view.
   </div>
@@ -113,4 +114,21 @@
     </ol>
   </div>
 
+  <h2>How to Remove <em>Get Started</em></h2>
+  <p>
+    If you wish to remove all this get-started stuff, do the following:
+  </p>
+  <ol>
+    <li>Delete the folder <code>/Get Started</code></li>
+    <li>
+      Delete the <code>Get Started</code> view in App Views.
+      <a href="" data-fancybox data-src="@MyView.Folder.Url/assets/delete-view-get-started.jpg" class="btn btn-sm btn-outline-secondary">
+        <img src="@MyView.Folder.Url/assets/delete-view-get-started.jpg" alt="Delete the Get Started View" data-fancybox class="img-fluid" style="width: 25px;">
+      </a>
+      
+    </li>
+  </ol>
+
 </div>
+
+@Kit.Page.Activate("fancybox4")

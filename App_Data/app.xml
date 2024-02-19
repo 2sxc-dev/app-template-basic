@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.04.02" ModuleVersion="17.01.08" ExportDate="2024-02-19T17:53:17.6969988+01:00">
+<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.04.02" ModuleVersion="17.01.08" ExportDate="2024-02-19T18:16:04.9682225+01:00">
   <Header>
     <App Guid="c4b158df-e0cb-4c4e-b066-74499bdf2a8f" />
     <Language Default="en-us" />
@@ -33,7 +33,7 @@
       <Value Key="DisplayName" Value="AppTemplateBasic" Type="String">
         <Dimension DimensionID="216" ReadOnly="false" />
       </Value>
-      <Value Key="Folder" Value="AppTemplateBasic" Type="String">
+      <Value Key="Folder" Value="app-template-basic" Type="String">
         <Dimension DimensionID="216" ReadOnly="false" />
       </Value>
       <Value Key="Hidden" Value="False" Type="Boolean">
@@ -70,7 +70,7 @@
       <Value Key="Identifier" Value="" Type="String">
         <Dimension DimensionID="216" ReadOnly="false" />
       </Value>
-      <Value Key="IsHidden" Value="False" Type="Boolean">
+      <Value Key="IsHidden" Value="True" Type="Boolean">
         <Dimension DimensionID="216" ReadOnly="false" />
       </Value>
       <Value Key="ListContentTypeStaticName" Value="" Type="String">
@@ -175,6 +175,6 @@
   </Entities>
   <PortalFiles />
   <PortalFolders>
-    <Folder Id="14363" RelativePath="adam/AppTemplateBasic/" />
+    <Folder Id="14364" RelativePath="adam/app-template-basic/" />
   </PortalFolders>
 </SexyContent>
