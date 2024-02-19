@@ -1,0 +1,116 @@
+@inherits Custom.Hybrid.RazorTyped
+@* FYI: this inherits from RazorTyped to use the latest APIs. Learn more on https://go.2sxc.org/cs-typed *@
+
+<div @Kit.Toolbar.Default(MyItem)>
+  <h1>Get Started with the Basic App Template</h1>
+  <div class="alert alert-secondary">
+    This is a empty template app with a few tips to get you started. <br>
+    You are seeing <code>/Get Started/Welcome.cshtml</code> because the link contains <code>?getstarted=true</code>. <br>
+    Click <a href="@Link.To()">🔙</a> to see the default view.
+  </div>
+
+  <div class="alert alert-info">
+    <h2>Where are the files?</h2>
+    The App Folder is located here: <code>[system-root]@App.Folder.Path</code> <br>
+    The full path is: <code>@App.Folder.PhysicalPath</code>
+  </div>
+
+  <h2>What's Included</h2>
+  <p>
+    The following list shows you what this template app includes, so that you better understand it and also feel comfortable with removing anything you don't need.
+  </p>
+
+  <h3>Folders and Files in the Template App</h3>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Folder/File</th>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Recommendation</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>📁<code>/</code></td>
+        <td></td>
+        <td>contains the app's files</td>
+        <td>place your own files here, or in subfolders</td>
+      </tr>
+
+      <tr>
+        <td>📄<code>/.gitignore</code></td>
+        <td>text</td>
+        <td>tells git which files to ignore</td>
+        <td>update it to your needs</td>
+      </tr>
+
+      <tr>
+        <td>📄<code>/app.csproj</code></td>
+        <td>xml</td>
+        <td>helps VS Code with IntelliSense</td>
+        <td>update as needed - see <a href="https://go.2sxc.org/vs-code" target="_blank">📖 docs</a></td>
+      </tr>
+
+      <tr>
+        <td>📄<code>/app.sln</code></td>
+        <td>special</td>
+        <td>helps VS Code with IntelliSense</td>
+        <td>just ignore this, VS Code needs it</td>
+      </tr>
+
+
+      <tr>
+        <td>📄<code>/Default.cshtml</code></td>
+        <td>Razor</td>
+        <td>the default view which you see when adding the App to the page</td>
+        <td>modify it, create more of these Razor files or delete it</td>
+      </tr>
+
+      <tr>
+        <td>📄<code>/readme.md</code></td>
+        <td>markdown</td>
+        <td>Documentation notes, shown in github or other git-systems.</td>
+        <td>keep it, so you can document your app</td>
+      </tr>
+
+
+      <tr>
+        <td>📁<code>/App_Data</code></td>
+        <td></td>
+        <td>
+          Contains internal files. <br>
+          This folder is protected. Files in this folder <strong>can not</strong> be accessed through the browser.
+        </td>
+        <td>Just ignore for now.</td>
+      </tr>
+
+      <tr>
+        <td>📄<code>/App_Data/app.json</code></td>
+        <td>json</td>
+        <td>advanced settings for import/export, compiling etc.</td>
+        <td>just ignore; it's important for advanced scenarios</td>
+      </tr>
+
+      <tr>
+        <td>📁<code>/Get Started</code></td>
+        <td></td>
+        <td>getting-started instructions like these</td>
+        <td>delete this folder once you're comfortable with the app</td>
+      </tr>
+
+    </tbody>
+  </table>
+
+  <h2>First Recommended Steps</h2>
+  <div>
+    This App was just created, and you can now do anything you want with it.
+    In general, we recommend the following steps:
+    <ol>
+      <li>Learn to work in this App using VS Code</li>
+      <li>Setup Git</li>
+      <li>Start creating your own App</li>
+    </ol>
+  </div>
+
+</div>
