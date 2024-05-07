@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.04.02" ModuleVersion="17.01.08" ExportDate="2024-02-19T18:16:04.9682225+01:00">
+<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.04.02" ModuleVersion="17.07.00" ExportDate="2024-05-07T10:28:29.7244407+02:00">
   <Header>
     <App Guid="c4b158df-e0cb-4c4e-b066-74499bdf2a8f" />
     <Language Default="en-us" />
@@ -14,6 +14,135 @@
     </AttributeSet>
     <AttributeSet StaticName="App-Settings" Name="App-Settings" Scope="System.App" AlwaysShareConfiguration="false">
       <Attributes />
+    </AttributeSet>
+    <AttributeSet StaticName="4ed2cea9-bfc0-4561-a364-e58148cffaf8" Name="ArticleBasic" Scope="Default" AlwaysShareConfiguration="false">
+      <Attributes>
+        <Attribute StaticName="Title" Type="String" IsTitle="true">
+          <Entity TargetType="2" AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="61e54914-38a6-49d7-8ae4-f1391c7efcad" Json="True" KeyNumber="6410">
+            <Value Key="CustomJavaScript" Value="" Type="String">
+              <Dimension DimensionID="216" ReadOnly="false" />
+            </Value>
+            <Value Key="DefaultValue" Value="" Type="String">
+              <Dimension DimensionID="216" ReadOnly="false" />
+            </Value>
+            <Value Key="Disabled" Value="False" Type="Boolean">
+              <Dimension DimensionID="216" ReadOnly="false" />
+            </Value>
+            <Value Key="DisableTranslation" Value="False" Type="Boolean">
+              <Dimension DimensionID="216" ReadOnly="false" />
+            </Value>
+            <Value Key="HelpLink" Value="" Type="Hyperlink">
+              <Dimension DimensionID="216" ReadOnly="false" />
+            </Value>
+            <Value Key="Information" Value="" Type="String">
+              <Dimension DimensionID="216" ReadOnly="false" />
+            </Value>
+            <Value Key="InputType" Value="string-default" Type="String">
+              <Dimension DimensionID="216" ReadOnly="false" />
+            </Value>
+            <Value Key="Name" Value="Title" Type="String">
+              <Dimension DimensionID="216" ReadOnly="false" />
+            </Value>
+            <Value Key="Notes" Value="&lt;p&gt;The title will be shown in large on the page.&lt;/p&gt;" Type="String">
+              <Dimension DimensionID="216" ReadOnly="false" />
+            </Value>
+            <Value Key="Placeholder" Value="please add a title" Type="String">
+              <Dimension DimensionID="216" ReadOnly="false" />
+            </Value>
+            <Value Key="Required" Value="True" Type="Boolean">
+              <Dimension DimensionID="216" ReadOnly="false" />
+            </Value>
+            <Value Key="Tooltip" Value="" Type="String">
+              <Dimension DimensionID="216" ReadOnly="false" />
+            </Value>
+            <Value Key="ValidationRegExJavaScript" Value="" Type="String">
+              <Dimension DimensionID="216" ReadOnly="false" />
+            </Value>
+            <Value Key="VisibleInEditUI" Value="True" Type="Boolean">
+              <Dimension DimensionID="216" ReadOnly="false" />
+            </Value>
+          </Entity>
+          <Entity TargetType="2" AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@String" AttributeSetName="@String" EntityGUID="240b2c53-dec5-499b-bf05-0886b3314945" Json="True" KeyNumber="6410">
+            <Value Key="DropdownValues" Value="" Type="String">
+              <Dimension DimensionID="216" ReadOnly="false" />
+            </Value>
+            <Value Key="InputType" Value="" Type="String">
+              <Dimension DimensionID="216" ReadOnly="false" />
+            </Value>
+          </Entity>
+          <Entity TargetType="2" AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@string-default" AttributeSetName="@string-default" EntityGUID="3453475c-071b-49a8-8c15-25d3bf7cc596" Json="True" KeyNumber="6410">
+            <Value Key="InputFontFamily" Value="" Type="String">
+              <Dimension DimensionID="216" ReadOnly="false" />
+            </Value>
+          </Entity>
+        </Attribute>
+        <Attribute StaticName="Subtitle" Type="String" IsTitle="false">
+          <Entity TargetType="2" AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="61b9dedb-30d6-40a0-822a-64c45ac45546" Json="True" KeyNumber="6411">
+            <Value Key="CustomJavaScript" Value="" Type="String">
+              <Dimension DimensionID="216" ReadOnly="false" />
+            </Value>
+            <Value Key="DefaultValue" Value="" Type="String">
+              <Dimension DimensionID="216" ReadOnly="false" />
+            </Value>
+            <Value Key="Disabled" Value="False" Type="Boolean">
+              <Dimension DimensionID="216" ReadOnly="false" />
+            </Value>
+            <Value Key="DisableTranslation" Value="False" Type="Boolean">
+              <Dimension DimensionID="216" ReadOnly="false" />
+            </Value>
+            <Value Key="HelpLink" Value="" Type="Hyperlink">
+              <Dimension DimensionID="216" ReadOnly="false" />
+            </Value>
+            <Value Key="Information" Value="" Type="String">
+              <Dimension DimensionID="216" ReadOnly="false" />
+            </Value>
+            <Value Key="InputType" Value="string-default" Type="String">
+              <Dimension DimensionID="216" ReadOnly="false" />
+            </Value>
+            <Value Key="Name" Value="Subtitle" Type="String">
+              <Dimension DimensionID="216" ReadOnly="false" />
+            </Value>
+            <Value Key="Notes" Value="" Type="String">
+              <Dimension DimensionID="216" ReadOnly="false" />
+            </Value>
+            <Value Key="Placeholder" Value="add a smaller subtitle" Type="String">
+              <Dimension DimensionID="216" ReadOnly="false" />
+            </Value>
+            <Value Key="Required" Value="False" Type="Boolean">
+              <Dimension DimensionID="216" ReadOnly="false" />
+            </Value>
+            <Value Key="Tooltip" Value="" Type="String">
+              <Dimension DimensionID="216" ReadOnly="false" />
+            </Value>
+            <Value Key="ValidationRegExJavaScript" Value="" Type="String">
+              <Dimension DimensionID="216" ReadOnly="false" />
+            </Value>
+            <Value Key="VisibleInEditUI" Value="True" Type="Boolean">
+              <Dimension DimensionID="216" ReadOnly="false" />
+            </Value>
+          </Entity>
+          <Entity TargetType="2" AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@String" AttributeSetName="@String" EntityGUID="820f9223-9c89-471a-9fb6-bad39c4d3322" Json="True" KeyNumber="6411">
+            <Value Key="DropdownValues" Value="" Type="String">
+              <Dimension DimensionID="216" ReadOnly="false" />
+            </Value>
+            <Value Key="InputType" Value="" Type="String">
+              <Dimension DimensionID="216" ReadOnly="false" />
+            </Value>
+          </Entity>
+          <Entity TargetType="2" AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@string-default" AttributeSetName="@string-default" EntityGUID="ecd5d18b-6c2d-41af-9fa5-bad7f659b6cd" Json="True" KeyNumber="6411">
+            <Value Key="InputFontFamily" Value="" Type="String">
+              <Dimension DimensionID="216" ReadOnly="false" />
+            </Value>
+          </Entity>
+        </Attribute>
+        <Attribute StaticName="Contents" Type="String" IsTitle="false">
+          <Entity TargetType="2" AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="e6fdef96-8209-4b97-8942-ed4406dfde96" Json="True" KeyNumber="6412">
+            <Value Key="InputType" Value="string-wysiwyg" Type="String" />
+            <Value Key="Name" Value="Contents" Type="String" />
+            <Value Key="VisibleInEditUI" Value="True" Type="Boolean" />
+          </Entity>
+        </Attribute>
+      </Attributes>
     </AttributeSet>
   </AttributeSets>
   <Entities>
@@ -30,7 +159,7 @@
       <Value Key="Description" Value="" Type="String">
         <Dimension DimensionID="216" ReadOnly="false" />
       </Value>
-      <Value Key="DisplayName" Value="AppTemplateBasic" Type="String">
+      <Value Key="DisplayName" Value="App Template - Basic" Type="String">
         <Dimension DimensionID="216" ReadOnly="false" />
       </Value>
       <Value Key="Folder" Value="app-template-basic" Type="String">
@@ -45,7 +174,7 @@
       <Value Key="RequiredDnnVersion" Value="09.06.01" Type="String">
         <Dimension DimensionID="216" ReadOnly="false" />
       </Value>
-      <Value Key="RequiredOqtaneVersion" Value="" Type="String">
+      <Value Key="RequiredOqtaneVersion" Value="05.00.00" Type="String">
         <Dimension DimensionID="216" ReadOnly="false" />
       </Value>
       <Value Key="RequiredVersion" Value="17.00.00" Type="String">
@@ -172,6 +301,108 @@
         <Dimension DimensionID="216" ReadOnly="false" />
       </Value>
     </Entity>
+    <Entity TargetType="1" AssignmentObjectType="Default" AttributeSetStaticName="2SexyContent-Template" AttributeSetName="2SexyContent-Template" EntityGUID="c1c1912f-f9ab-48af-b089-2ea26ded7543" Json="True">
+      <Value Key="ContentDemoEntity" Value="0d351621-2ead-411d-b4ae-bd30f275ea99" Type="Entity" />
+      <Value Key="ContentTypeStaticName" Value="4ed2cea9-bfc0-4561-a364-e58148cffaf8" Type="String">
+        <Dimension DimensionID="216" ReadOnly="false" />
+      </Value>
+      <Value Key="Icon" Value="" Type="Hyperlink">
+        <Dimension DimensionID="216" ReadOnly="false" />
+      </Value>
+      <Value Key="Identifier" Value="" Type="String">
+        <Dimension DimensionID="216" ReadOnly="false" />
+      </Value>
+      <Value Key="IsHidden" Value="False" Type="Boolean">
+        <Dimension DimensionID="216" ReadOnly="false" />
+      </Value>
+      <Value Key="ListContentTypeStaticName" Value="" Type="String">
+        <Dimension DimensionID="216" ReadOnly="false" />
+      </Value>
+      <Value Key="ListPresentationTypeStaticName" Value="" Type="String">
+        <Dimension DimensionID="216" ReadOnly="false" />
+      </Value>
+      <Value Key="Location" Value="Site" Type="String">
+        <Dimension DimensionID="216" ReadOnly="false" />
+      </Value>
+      <Value Key="Name" Value="Article Example" Type="String">
+        <Dimension DimensionID="216" ReadOnly="false" />
+      </Value>
+      <Value Key="Path" Value="Show Article.cshtml" Type="String">
+        <Dimension DimensionID="216" ReadOnly="false" />
+      </Value>
+      <Value Key="PresentationTypeStaticName" Value="" Type="String">
+        <Dimension DimensionID="216" ReadOnly="false" />
+      </Value>
+      <Value Key="PublishData" Value="False" Type="Boolean">
+        <Dimension DimensionID="216" ReadOnly="false" />
+      </Value>
+      <Value Key="SearchIndexingDisabled" Value="False" Type="Boolean">
+        <Dimension DimensionID="216" ReadOnly="false" />
+      </Value>
+      <Value Key="SearchIndexingStreams" Value="" Type="String">
+        <Dimension DimensionID="216" ReadOnly="false" />
+      </Value>
+      <Value Key="StreamsToPublish" Value="" Type="String">
+        <Dimension DimensionID="216" ReadOnly="false" />
+      </Value>
+      <Value Key="Type" Value="C# Razor" Type="String">
+        <Dimension DimensionID="216" ReadOnly="false" />
+      </Value>
+      <Value Key="UseForList" Value="False" Type="Boolean">
+        <Dimension DimensionID="216" ReadOnly="false" />
+      </Value>
+      <Value Key="ViewController" Value="" Type="String">
+        <Dimension DimensionID="216" ReadOnly="false" />
+      </Value>
+      <Value Key="ViewNameInUrl" Value="" Type="String">
+        <Dimension DimensionID="216" ReadOnly="false" />
+      </Value>
+    </Entity>
+    <Entity TargetType="4" AssignmentObjectType="Entity" AttributeSetStaticName="529ba3a2-d7d4-4f40-a81b-ff819de03a9e" AttributeSetName="IsDefaultDecorator" EntityGUID="b9f1f2e3-0053-4933-8909-923f4305513e" Json="True" KeyGuid="032e360f-d7b1-4ce1-beb8-f24bf6257a0f" />
+    <Entity TargetType="1" AssignmentObjectType="Default" AttributeSetStaticName="4ed2cea9-bfc0-4561-a364-e58148cffaf8" AttributeSetName="ArticleBasic" EntityGUID="0d351621-2ead-411d-b4ae-bd30f275ea99">
+      <Value Key="Contents" Value="&lt;p&gt;You are reading this because you:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;just created a new app 🌟&lt;/li&gt;&#xA;&lt;li&gt;added it to the page and selected the &lt;strong&gt;Article Example&lt;/strong&gt; view&lt;br&gt;&lt;br&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2&gt;What is This For?&lt;/h2&gt;&#xA;&lt;p&gt;This is just an example, to make it easier to get started. Since this is a template App, you will typically start to modify it as you wish. You might even choose to delete this view and the Content Type &quot;ArticleBasic&quot;, because you want something else.&amp;nbsp;&lt;/p&gt;&#xA;&lt;h2&gt;How Does this Article Thing Work?&lt;/h2&gt;&#xA;&lt;p&gt;This is a combination of 4 things:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;A Content-Type called &lt;strong&gt;ArticleBasic&lt;/strong&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;This describes the &lt;em&gt;structure&lt;/em&gt; of data to use, eg. that it has a &lt;em&gt;Title, Teaser, and WYSIWYG Contents&lt;/em&gt;, similar to SQL table columns or a JSON schema.&amp;nbsp;&lt;/li&gt;&#xA;&lt;li&gt;This Content-Type will control the edit UI when the user edits content&lt;br&gt;&lt;br&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;A Data-Item (aka Entity) with the title&amp;nbsp;&lt;strong&gt;Welcome Article&lt;/strong&gt; which is what you are looking at&lt;br&gt;&lt;br&gt;&lt;/li&gt;&#xA;&lt;li&gt;The Razor file called&amp;nbsp;&lt;strong&gt;Show Article.cshtml&lt;/strong&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;This file contains &lt;em&gt;HTML&lt;/em&gt; and &lt;em&gt;Razor code&lt;/em&gt;, which is always marked by &lt;strong&gt;@&lt;/strong&gt; symbols.&lt;/li&gt;&#xA;&lt;li&gt;The Razor will be executed on the server and combine it's HTML with the data, producing HTML which is then added to the page.&amp;nbsp;&lt;/li&gt;&#xA;&lt;li&gt;The Razor also places the &lt;strong&gt;edit toolbar&lt;/strong&gt; so you can see it when your mouse hovers.&lt;br&gt;&lt;br&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;A view configuration called &lt;strong&gt;Article Example&lt;/strong&gt; which instructed the CMS what todo, like&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Which Razor file to use (in this case &lt;em&gt;Show Article.cshtml&lt;/em&gt;)&lt;/li&gt;&#xA;&lt;li&gt;What Content-Type to Show (in this case&amp;nbsp;&lt;em&gt;ArticleBasic&lt;/em&gt;)&lt;/li&gt;&#xA;&lt;li&gt;What demo-data to show initially (this &lt;em&gt;Welcome Article&lt;/em&gt;)&lt;br&gt;&lt;br&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Then this happened:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;You added this &lt;strong&gt;Article Example&lt;/strong&gt; &lt;em&gt;View&lt;/em&gt; to the page...&lt;/li&gt;&#xA;&lt;li&gt;...the CMS looked at the &lt;em&gt;View&lt;/em&gt; configuration...&lt;/li&gt;&#xA;&lt;li&gt;...decided to retrieve the &lt;strong&gt;Welcome Article&lt;/strong&gt; &lt;em&gt;Item &lt;/em&gt;(of the &lt;em&gt;Content-Type&lt;/em&gt; &lt;strong&gt;ArticleBasic&lt;/strong&gt;)...&lt;/li&gt;&#xA;&lt;li&gt;...and let the &lt;em&gt;Razor View &lt;/em&gt;&lt;strong&gt;Show Article.cshtml &lt;/strong&gt;genererate some HTML.&lt;br&gt;&lt;br&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;The resulting HTML was added to the page, which is why you can see it now.&amp;nbsp;&lt;/p&gt;&#xA;&lt;h2&gt;How Would An Editor Use This?&lt;/h2&gt;&#xA;&lt;p&gt;An editor could move the mouse over the this article and see a &lt;strong&gt;pencil icon&lt;/strong&gt; - and hit edit. This would then happen:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;A Edit-UI would open to edit the data &lt;strong&gt;Item &lt;/strong&gt;based on the &lt;strong&gt;ArticleBasic&lt;/strong&gt;, so it would have a &lt;em&gt;Title&lt;/em&gt;, &lt;em&gt;Subtitle&lt;/em&gt;&lt;strong&gt; &lt;/strong&gt;and &lt;em&gt;Contents&lt;/em&gt;.&lt;/li&gt;&#xA;&lt;li&gt;The form would be completely empty, since the initial&amp;nbsp;&lt;strong&gt;Welcome Article&lt;/strong&gt; was just a&amp;nbsp;&lt;em&gt;preview.&lt;/em&gt;&amp;nbsp;&lt;/li&gt;&#xA;&lt;li&gt;When sazing, a new&amp;nbsp;&lt;em&gt;Item&lt;/em&gt; is created and assigned to this Module - so it's kind of part of the current page now.&lt;/li&gt;&#xA;&lt;li&gt;Any future&amp;nbsp;&lt;em&gt;edit&lt;/em&gt; clicks will open your item to make further modifications.&lt;br&gt;&lt;br&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2&gt;What Can An App Developer Do Now?&lt;/h2&gt;&#xA;&lt;p&gt;You have unlimited possibilies. Some of the simpler ones are:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Go the the App Admin and add more fields of various types to the&amp;nbsp;&lt;em&gt;Content-Type&lt;/em&gt;&amp;nbsp;&lt;strong&gt;ArticleBasic&lt;/strong&gt; to see how the input form changes.&lt;br&gt;&lt;br&gt;&lt;/li&gt;&#xA;&lt;li&gt;Modify the Razor &lt;strong&gt;Show Article.cshtml&lt;/strong&gt; and see how the output changes.&lt;br&gt;&lt;br&gt;&lt;/li&gt;&#xA;&lt;li&gt;Copy the &lt;strong&gt;Show Article.cshtml&lt;/strong&gt; to eg. &lt;strong&gt;Article Preview.cshtml&lt;/strong&gt;, configure a view to show it, and see if you can get that to work.&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;/li&gt;&#xA;&lt;li&gt;You may of course also delete the Razor, the View and the Content-Type, and just do whatever you want 😉&lt;br&gt;&lt;br&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;May the 4th be with you,&lt;br&gt;the 2sxc team&lt;/p&gt;" Type="String">
+        <Dimension DimensionID="216" ReadOnly="false" />
+      </Value>
+      <Value Key="Subtitle" Value="Congratulations to your new App 🌟 - let's build something" Type="String">
+        <Dimension DimensionID="216" ReadOnly="false" />
+      </Value>
+      <Value Key="Title" Value="Welcome Article" Type="String">
+        <Dimension DimensionID="216" ReadOnly="false" />
+      </Value>
+    </Entity>
+    <Entity TargetType="1" AssignmentObjectType="Default" AttributeSetStaticName="2SexyContent-ContentGroup" AttributeSetName="2SexyContent-ContentGroup" EntityGUID="3cac9c95-9ecd-4123-a802-d076e8fcf0b7" Json="True">
+      <Value Key="Template" Value="c1c1912f-f9ab-48af-b089-2ea26ded7543" Type="Entity" />
+    </Entity>
+    <Entity TargetType="5" AssignmentObjectType="ContentType" AttributeSetStaticName="ContentType" AttributeSetName="ContentType" EntityGUID="f8c310da-f6c7-4fae-b8eb-0bcb19e2c27c" Json="True" KeyString="4ed2cea9-bfc0-4561-a364-e58148cffaf8">
+      <Value Key="AdditionalSettings" Value="" Type="String">
+        <Dimension DimensionID="216" ReadOnly="false" />
+      </Value>
+      <Value Key="Description" Value="" Type="String">
+        <Dimension DimensionID="216" ReadOnly="false" />
+      </Value>
+      <Value Key="DynamicChildrenField" Value="" Type="String">
+        <Dimension DimensionID="216" ReadOnly="false" />
+      </Value>
+      <Value Key="EditInstructions" Value="&lt;p&gt;Welcome to Articles - Just fill in the fields below. This is part of a template App, so it's very basic, just to get you started. You may wonder...&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Where can I add more fields&lt;br&gt;➡️ in the App Administration (the hover-toolbar, gear-icon, then go to Data)&lt;/li&gt;&#xA;&lt;li&gt;Can I create more Content-Types?&lt;br&gt;➡️ most certainly - same place in App Adminstration&lt;/li&gt;&#xA;&lt;li&gt;Can I get rid of this text?&lt;br&gt;➡️ Yes, same place - find the Content-Type&amp;nbsp;&lt;em&gt;ArticleBasic &lt;/em&gt;and use the pencil button (in the box &lt;em&gt;Instructions for the User&lt;/em&gt;).&lt;/li&gt;&#xA;&lt;/ol&gt;" Type="String">
+        <Dimension DimensionID="216" ReadOnly="false" />
+      </Value>
+      <Value Key="Icon" Value="" Type="Hyperlink">
+        <Dimension DimensionID="216" ReadOnly="false" />
+      </Value>
+      <Value Key="Label" Value="Article Example" Type="String">
+        <Dimension DimensionID="216" ReadOnly="false" />
+      </Value>
+      <Value Key="Link" Value="" Type="Hyperlink">
+        <Dimension DimensionID="216" ReadOnly="false" />
+      </Value>
+      <Value Key="ListInstructions" Value="" Type="String">
+        <Dimension DimensionID="216" ReadOnly="false" />
+      </Value>
+      <Value Key="Notes" Value="" Type="String">
+        <Dimension DimensionID="216" ReadOnly="false" />
+      </Value>
+    </Entity>
+    <Entity TargetType="3" AssignmentObjectType="App" AttributeSetStaticName="5efb0bc2-03c3-45e0-a20b-dabf71b8cfd1" AttributeSetName="IsTemplateDecorator" EntityGUID="9ccc7127-2e90-4778-8b64-62ec398a8694" Json="True" KeyNumber="325" />
   </Entities>
   <PortalFiles />
   <PortalFolders>
